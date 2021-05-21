@@ -1,0 +1,12 @@
+[Unit]
+Description=Monitors specified directory and preforms metadata removal, encryption and compression
+After=network.target
+
+[Service]
+Type-simple
+ExecStart=/usr/local/bin/monitor_exif.sh -e somelad@protonmail.com -d ~/local_dir 
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+~                           
