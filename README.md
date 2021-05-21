@@ -1,6 +1,6 @@
 # Cosaint
 
-Cosaint (defence in Irish) is a collection of simple scripts to scrub files of any meta data, compress them and encrypt them. These scripts are suitable for running on individual files or as a service that automatically runs on specific folders/files. Cosaint is useful for protecting your files before you store them on a public cloud or any server you don't own.
+Cosaint (defence in Irish) is a collection of simple script to scrub files of any meta data, compress them and encrypt them. These scripts are suitable for running on individual files or as a service that automatically runs on specific folders/files. Cosaint is useful for protecting your files before you store them on a public cloud or any server you don't own.
 
 
 ## Dependancies
