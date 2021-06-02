@@ -9,6 +9,11 @@ Cosaint (defence in Irish) is a collection of simple scripts to scrub files of a
 * inotify-tools
 
 
+## Known Issues
+SystemD service runs with root user so it doesn't have access to your gpg keys. One way around this is to setup another key for root user.
+The SystemD service may also fail since password isn't provided so the --passphrase flag needs to be added as an option to the Cosaint script at some point.
+
+
 ## Setting up
 
 This repo contains three shell scripts and a SystemD service file that runs the scripts automatically. The base cosaint.sh script can be used as a CLI and the two cosaint_monitoring and monitor_exif scripts are used by the SystemD service to automatically run the cosaint script. First thing you'll need to do is clone the Repo.
